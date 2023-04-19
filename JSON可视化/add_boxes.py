@@ -49,7 +49,7 @@ class Add_box:
                 c = int(i[1][4])
 
                 #i[1][0]=x1=left
-                #i[1][1]=y1top
+                #i[1][1]=y1=top
                 #i[1][2]=x2=right 
                 #i[1][3]=y2=bottom
                 top = i[1][1] #top是y1 left是x1 right是x2 bottom是y2
