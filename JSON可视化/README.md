@@ -2,4 +2,4 @@
 
 将Bdd.zip解压后即可运行add_boxes.py
 
-注：数据集为bdd100k
+注：数据集为bdd100k 目标框标签的字体是simhei.ttf
