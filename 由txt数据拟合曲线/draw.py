@@ -22,6 +22,6 @@ ax1.set_xlabel('epoch')  # 设置X轴名称
 ax1.set_ylabel('mAP0.5')  # 设置Y轴名称
 plt.title('a mAP curve') #设置标题
 plt.grid(linestyle=":", color="r")  # 绘制网格线
-plt.savefig('logs/log_2023_05_04_bdd100k/epoch_mAP.png', dpi=100)
+plt.savefig('epoch_mAP.png', dpi=100)
 
 plt.show()  # 显示绘制的图
