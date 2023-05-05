@@ -1,6 +1,6 @@
 from matplotlib import pyplot as plt
  
-filename = 'logs/log_2023_05_04_bdd100k/epoch_map.txt'
+filename = 'epoch_map.txt'
 step, y = [], []
 # 相比open(),with open()不用手动调用close()方法
 with open(filename, 'r') as f:
