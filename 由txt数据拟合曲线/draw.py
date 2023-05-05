@@ -16,7 +16,7 @@ with open(filename, 'r') as f:
  
 fig = plt.figure(figsize=(8, 5))  # 创建绘图窗口，并设置窗口大小
 ax1 = fig.add_subplot(111)  # 将画面分割为1行1列选第一个
-ax1.plot(step, y, 'blue', label='train mAP')  # 画dis-loss的值，颜色红
+ax1.plot(step, y, 'blue', label='train mAP')  # 画dis-loss的值，颜色蓝
 ax1.legend(loc='lower right')  # 绘制图例，plot()中的label值
 ax1.set_xlabel('epoch')  # 设置X轴名称
 ax1.set_ylabel('mAP0.5')  # 设置Y轴名称
